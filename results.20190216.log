@@ -1,0 +1,33 @@
+updating from https://github.com/deislabs/bundles
+aks                           : {"credentials": 4, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 3}
+aks-terraform                 : {"credentials": 5, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 10}
+ansible-azurevm               : {"credentials": 4, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 1}
+ansiblebase                   : {"credentials": 4, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 3}
+arm-aci                       : {"credentials": 4, "description": 0, "images": 1, "imagetype:docker": 2, "invocationImages": 1, "maintainers": 0, "parameters": 2}
+armbase                       : {"credentials": 4, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 2}
+compose                       : {"credentials": 0, "description": 0, "images": 2, "imagetype:docker": 3, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+example-credentials           : {"credentials": 3, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+example-run                   : {"credentials": 0, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 1}
+example-voting-app-sqlserver  : {"credentials": 0, "description": 0, "images": 2, "imagetype:docker": 3, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+helloazure                    : {"credentials": 0, "description": 0, "images": 0, "imagetype:azure-image": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+hellohelm                     : {"credentials": 1, "description": 0, "images": 1, "imagetype:docker": 2, "invocationImages": 1, "maintainers": 0, "parameters": 1}
+helloworld                    : {"credentials": 0, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 1}
+k8sbase                       : {"credentials": 0, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+makebase                      : {"credentials": 0, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+!! bundle.json file missing in openfaas
+pulumibase                    : {"credentials": 0, "description": 0, "images": 1, "imagetype:docker": 2, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+terraform                     : {"credentials": 5, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 1}
+vote                          : {"credentials": 1, "description": 1, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+wordpress                     : {"credentials": 0, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 0}
+wordpress-mysql               : {"credentials": 4, "description": 0, "images": 0, "imagetype:docker": 1, "invocationImages": 1, "maintainers": 0, "parameters": 5}
+21 bundles, including 5 base bundles found
+averages:
+ - credentials                   : 1.86
+ - description                   : 0.05
+ - images                        : 0.33
+ - imagetype:azure-image         : 0.05
+ - imagetype:docker              : 1.24
+ - invocationImages              : 0.95
+ - maintainers                   : 0.00
+ - parameters                    : 1.43
+FAIL
